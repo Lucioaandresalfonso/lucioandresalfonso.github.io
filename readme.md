@@ -1,7 +1,20 @@
-Sitio responsivo. Combinación de CV y Portfolio de un Desarrollador Freelance.
+Curriculum Vitae de Lisa Kelley
+===============================
 
+Tecnologías Empleadas:
+    * HTML
+    * CSS
+    * Javascript
+    * Bootstrap Framework
+    * JQuery 
 
-* Emplee para ello Bootstrap para utilizar las clases predefinidas y editarlas a gusto.
+Descripción: Sitio responsivo. Combinación de CV y Portfolio de un Desarrollador Freelance.
+
+Fuentes de datos empleadas: Randomuser.me (para los datos ficticios del curriculum), imagen de jumbotron realizada con la versión gratuita de la plataforma Vyond. Foto de perfil descargada de Steampowered.com
+
+* Estructura del proyecto web: Navbar, jumbotron, About section, Skills, Separador, Porfolio Section, Cards, Formulario de contacto, Footer, Whatsapp Witget.
+
+* Emplee para ello Bootstrap para utilizar las clases predefinidas (navbar, footer, jumbotron, entre otras) y editarlas a gusto.
 
 * Utilicé el navbar de Bootstrap y lo definí sticky top y luego puse los enlaces internos (#)
 
@@ -34,10 +47,3 @@ Por último modifiqué el alert para que el pop-up sea más atractivo.
 * se implementó Wow Animate que es un plugin para agregar animaciones a distintos componentes (Fade in, fade up, etc.). --> https://wowjs.uk/
 
 * todas las imágenes utilizadas tienen el atributo "alt"
-
-
-revisar jumbotron para que sea ressponsivo y quede centrado al reducir la pagina
-
-ver si puedo modificar el alert
-
-cotejar con cuestiones que evaluan, el cuadrito
