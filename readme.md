@@ -21,7 +21,7 @@ Fuentes de datos empleadas: Randomuser.me (para los datos ficticios del curricul
 * Utilicé una imagen PNG que luego converti a formato .ICO para definir el favicon.
 
 * Se emplea Google Fonts: Source Sans Pro (Regular 400) --> https://fonts.google.com/specimen/Source+Sans+Pro
-Para ello se copia el enlace que provee Google Fonts y se coloca luego del bootstrap en tal TAG head. A continuación modifico el font-family del body en el archivo bootstrap.css 
+Para ello se copia el enlace que provee Google Fonts y se coloca luego del bootstrap en el TAG head. A continuación modifico el font-family del body en el archivo bootstrap.css 
 
 * Utilizo un Widget de Whatsapp flotante para agregar funcionalidad para el contacto con este perfil freelance. Al hacer click lleva a un chat en Whatsapp con el número provisto por la web de Randomuser.me.
 * Para los íconos de Fontawesome agregué la clase .fa-solid que es la que empleo en esta versión y le definí el color para que aplique a todos los íconos utilizados (cornflowerblue)
