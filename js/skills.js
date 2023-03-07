@@ -95,13 +95,13 @@ $(document).ready(function () {
     opacitySpeed: 6,
     fov: 150,
     speed: 0.3,
-    fontFamily: "Oswald, Arial, sans-serif",
+    fontFamily: "Source Sans Pro, sans-serif",
     fontSize: "20",
     fontColor: "#0275d8",
     fontWeight: "bold", //bold
     fontStyle: "italic", //italic
     fontStretch: "expanded", //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
-    fontToUpperCase: true,
+    fontToUpperCase: false,
   };
 
   //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );

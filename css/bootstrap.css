@@ -30,14 +30,14 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-sans-serif: 'Source Sans Pro', sans-serif;
+    --font-family-monospace: 'Source Sans Pro', sans-serif;
 }
 *, ::after, ::before {
     box-sizing: border-box;
 }
 html {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -93,7 +93,7 @@ address {
 dl, ol, ul {
     margin-top: 0;
     margin-bottom: 1rem;
- }
+}
 ol ol, ol ul, ul ol, ul ul {
     margin-bottom: 0;
 }
@@ -109,7 +109,7 @@ blockquote {
 }
 b, strong {
     font-weight: bolder;
-     color:  cornflowerblue;
+color:  cornflowerblue;
 }
 
 outstand {
@@ -149,7 +149,7 @@ a:not([href]):not([class]):hover {
     text-decoration: none;
 }
 code, kbd, pre, samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
 }
 pre {
@@ -2999,7 +2999,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     transition: transform .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-transform .15s ease-in-out;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-switch .custom-control-label: :after {
+    .custom-switch .custom-control-label :after {
     transition: none;
 }
 }.custom-switch .custom-control-input:checked~.custom-control-label::after {
@@ -3163,7 +3163,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-webkit-slider-thumb {
+    .custom-range :-webkit-slider-thumb {
     -webkit-transition: none;
     transition: none;
 }
@@ -3191,7 +3191,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-moz-range-thumb {
+    .custom-range :-moz-range-thumb {
     -moz-transition: none;
     transition: none;
 }
@@ -3221,7 +3221,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-ms-thumb {
+    .custom-range :-ms-thumb {
     -ms-transition: none;
     transition: none;
 }
@@ -3265,7 +3265,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-control-label: :before, .custom-file-label, .custom-select {
+    .custom-control-label :before, .custom-file-label, .custom-select {
     transition: none;
 }
 }.nav {
@@ -4866,7 +4866,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -4962,7 +4962,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -7930,7 +7930,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace!important;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .text-justify {
     text-align: justify!important;
@@ -8109,7 +8109,7 @@ a.text-dark:focus, a.text-dark:hover {
     visibility: hidden!important;
 }
 @media print {
-    *, : :after, ::before {
+    *, :after, ::before {
     text-shadow: none!important;
     box-shadow: none!important;
 }
@@ -8180,7 +8180,7 @@ body {
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow:  2px 2px 3px #;
+    box-shadow:  2px 2px 3px;
     z-index: 100;
 }
 .my-float {
@@ -8200,7 +8200,7 @@ body {
     color: #fff;
 }
 #call-to-action .cta-btn {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
@@ -8214,8 +8214,8 @@ body {
     color:  #fff;
 }
 #call-to-action .cta-btn:hover {
-      background:  #3349FF;
-      border:  2px solid #3349FF;
+    background:  #3349FF;
+    border:  2px solid #3349FF;
 }
 #resCanvas {
     text-align: center;
